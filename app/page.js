@@ -1,13 +1,12 @@
-import { Button } from "@/components/ui/button";
-import { UserButton } from "@clerk/nextjs";
-import Image from "next/image";
+// import CategoryList from "./_components/CategoryList";
+import BusinessList from "./_components/BusinessList";
+import CategoryList from "./_components/CategoryList";
 
 export default function Home() {
   return (
     <div>
-      <Button>hi</Button>
-
-      <UserButton afterSignOutUrl="/" />
+      <CategoryList />
+      <BusinessList />
     </div>
   );
 }
